@@ -21,8 +21,8 @@ int main()
     SI=(P*R*N)/100;
     printf("Your simple interest is:%f",SI);
     B=(1+(R/100));
-	RESULT=pow(B,N);
-	CI=P*RESULT;
-	CI-=P;
+    RESULT=pow(B,N);
+    CI=P*RESULT;
+    CI-=P;
     printf("\nYour compound interest is:%f",CI);
 }
