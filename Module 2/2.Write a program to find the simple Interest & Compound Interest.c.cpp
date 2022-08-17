@@ -11,7 +11,7 @@ CI=P*(1+R)n*/
 #include<stdio.h>
 int main()
 {
-	float P,R,N,CI,SI,B,RESULT;
+    float P,R,N,CI,SI,B,RESULT;
     printf("Enter Your Principal Amount:");
     scanf("%f",&P);
     printf("Enter Your Rate of interest:");
