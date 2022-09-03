@@ -7,13 +7,13 @@ equation: Xn+2= Xn+1 + Xn.*/
 #include<stdio.h>
 int main()
 {
-	int a,b,c,i,n;
+	int a,b,c,n;
 	printf("Enter your fibonacci number up to you want to print:-  ");
 	scanf("%d",&n);
 	a=0;
 	b=1;
 	printf("%d, %d, ",a,b);
-	while(i<n)
+	while(c<n)
 	{
 		c=a+b;
 		if(c<n)
@@ -22,6 +22,6 @@ int main()
 		}
 		a=b;
 		b=c;
-		i++;
+		c++;
 	}
 }
