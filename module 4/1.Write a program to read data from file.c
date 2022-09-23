@@ -1,4 +1,4 @@
-// write a programme to read data from file.
+// write a programme to read integer data from file.
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -17,3 +17,32 @@ int main ()
 	return 0;
 }
 
+// Write a program to read and write character string using gets and puts data from the file.
+
+?
+/*
+#include <stdio.h>
+int main ()
+{
+	FILE *A;
+	char B [50];
+	int c;
+	
+	A = fopen ("D:/Assignment/module 4/new_text_file.txt","w");
+	
+	fputs("this file managemrent of c programme .",A);
+	fputs("\nAnd try to do something new.....",A);
+	
+	fclose (A);
+	
+	A = fopen ("D:/Assignment/module 4/new_text_file.txt","r");
+	
+	for (c=0; c<2; c++)
+	{
+		fgets(B,50,A);
+		printf("\n%s",B);		
+	}
+	
+	fclose (A);
+}
+*/
