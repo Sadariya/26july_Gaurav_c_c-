@@ -17,9 +17,7 @@ int main ()
 	return 0;
 }
 
-// Write a program to read and write character string using gets and puts data from the file.
-
-?
+// Write a program to read character string using gets data from the file.
 /*
 #include <stdio.h>
 int main ()
@@ -27,13 +25,6 @@ int main ()
 	FILE *A;
 	char B [50];
 	int c;
-	
-	A = fopen ("D:/Assignment/module 4/new_text_file.txt","w");
-	
-	fputs("this file managemrent of c programme .",A);
-	fputs("\nAnd try to do something new.....",A);
-	
-	fclose (A);
 	
 	A = fopen ("D:/Assignment/module 4/new_text_file.txt","r");
 	
