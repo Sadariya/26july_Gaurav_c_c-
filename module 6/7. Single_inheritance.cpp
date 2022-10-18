@@ -54,7 +54,7 @@ class batsman : public cricketer // derived class : base class
 			if (aver < 45)
 				cout <<endl << "\t\t|Performance of player is good.";
 			else if (aver < 80)
-				cout <<endl << "\t\t\|Performance of player is nice.";
+				cout <<endl << "\t\t|Performance of player is nice.";
 			else if (aver > 80)
 				cout << endl << "\t\t|Performance of player is best.";
 			cout << endl <<endl;
